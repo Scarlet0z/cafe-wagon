@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The Cafe Wagon Restaurant  website that displays their menu and provides more information about the restaurant.">
+    <title>Cafe Wagon Restaurant </title> 
+
+    <!-- styling -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/home.css">
+    
+
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+
+    <!-- importing icons -->
+    <script src="https://kit.fontawesome.com/0acc85d45b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Beginning of Navigation Bar -->
+    <header class="gray-bkg">
+        <div class="flex">
+            <div class="flex">
+                <a href="tel:09876543211">
+                    <i class="fa-solid fa-phone"></i>&nbsp;
+                    <p>09682149796</p>
+                </a>
+
+                <a href="mailto:https://www.facebook.com/cafewagontarlac">
+                    <i class="fa-regular fa-envelope"></i>&nbsp;
+                    <p>Facebook page</p>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        <nav class="flex">
+            <a href="../" class="logo flex">
+                <h2>Cafe Wagon </h2>
+            </a>
+            <i class="fa-solid fa-bars" id="mobMenu"></i>
+            <ul class="navigationMenu flex">
+                <i class="fa-solid fa-xmark mobileView" id="mobExit"></i>
+                <li><a href="../">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+
+
+
+               
+            </ul>
+
+        </nav>
+    </header>
+    <!-- End of Navigation Bar -->
+
+    <section class="flex sect3">
+        <div>
+            <div class="image"></div>
+            <div class="contact">
+                <h3>Come and Visit Us</h4>
+                    <a href="tel:0968 214 9796" class="flex">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>0968 214 9796</p>
+                    </a>
+
+                    <a href="mailto:cafewagon@gmail.com" class="flex">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>cafewagon@gmail.com</p>
+                    </a>
+
+                    <a href="https://www.facebook.com/cafewagontarlac" class="flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Getha Road, Barangay San Sebastian, Tarlac City 2300 Tarlac, Philippines</p>
+                    </a>
+            </div>
+        </div>
+        <div>
+            <h2>Where every bite and sip tells a story.</h2>
+            <p>It begins with a vision that wants to turn into a dream. A warm place that enjoys the story of a sip and
+                bite, shared with family or friends.
+                You'll experience the rich and welcoming surroundings. Ensuring every visit is memorable or worth
+                adventuring.</p>
+            <p class="lightText">Coffee wagon will serve a cherished moment, Juicy flavor of each order.</p>
+            <a href="./about.html" class="basicBtn">More About Us</a>
+        </div>
+    </section>
+
+    <style>
+        /* Video background styling */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; /* Push video to the background */
+        }
+
+        /* Content styling to appear above the video */
+        .content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 50px;
+        }
+
+        /* Optional overlay effect */
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+            z-index: 0; /* Below content, above video */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Video Background -->
+    <video class="video-background" autoplay muted loop>
+        <source src="../img/about background.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <section class="flex features">
+        <div class="flex">
+            <img src="../img/restaurant-menu 1.png" alt="Multi Cuisine">
+            <div class="name">
+                <h4 style="color:white;"> Cuisine</h4>
+                <p style="color:white;"class="lightText">In the new era of technology we<br>look in the future with certainty life.</p>
+            </div>
+        </div>
+        <div class="flex">
+            <img src="../img/Icon.png" alt="Easy To Order">
+            <div class="name">
+                <h4 style="color:white;"> Easy To Order</h4>
+                <p style="color:white;"class="lightText">In the new era of technology we look in the future with certainty life.</p>
+            </div>
+
+
+        </div>
+        <div class="flex">
+            <img src="../img/timer 1.png" alt="Fast Delivery">
+            <div class="name">
+                <h4 style="color:white;"> Good Service</h4>
+                <p style="color:white;" class="lightText">In the new era of technology we look in the future with certainty life.</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="flex gray-bkg">
+        <section>
+            <h2>A little information<br>for our valuable guest</h2>
+            <p>At place, we believe that dining is not just about food, but also about the overall experience. Our
+                staff, renowned for their warmth and dedication, strives to make every visit an unforgettable event.</p>
+
+            <div class="flex stats">
+                <div>
+                    <h3>3</h3>
+                    <p>Locations</p>
+                </div>
+                <div>
+                    <h3>1995</h3>
+                    <p>Founded</p>
+                </div>
+                <div>
+                    <h3>65+</h3>
+                    <p>Staff Members</p>
+                </div>
+                <div>
+                    <h3>100%</h3>
+                    <p>Satisfied Customers</p>
+                </div>
+            </div>
+        </section>
+
+        <img src="/img/for home page.jpg" style="height: 500px;"
+            alt="Staff cooking" loading="lazy">
+
+    </section>
+
+    <section class="reviews">
+        
+        <h2 style="color:white;"> Our Customers Says</h2> 
+         
+        <div class="review-cards flex">
+            <div class="gray-bkg">
+                <h3>“The ambience is amazing”</h3>
+                <p>The ambience is amazing, I love the view especially at night time. The whole place is wide and has
+                    its own parking space. You can choose whether to stay near the order booth or go up that has 2
+                    portions where you can enjoy their live acoustic band performance. I'm not quite sure if that's on a
+                    daily basis that they perform at the venue or just on weekends. The place offers different varieties
+                    of food & drinks. I love the nachos but with the drinks sorry to say that the taste actually did not
+                    pass my tastebuds. This place is very accessible since it is just located in front of the College of
+                    Holy Spirit in San Sebastian Tarlac along the road</p>
+
+                <div class="divider"></div>
+                <div class="author flex">
+                    <img src="https://lh3.googleusercontent.com/a-/ALV-UjVRU49L-zvQi2Nxu-JleR56e6sOWuYYVNf8lj3hIeZU20yyIcJRxg=w60-h60-p-rp-mo-ba5-br100"
+                        alt="Abigail Galvez">
+                    <div class="name">
+                        <h4>Abigail Galves</h4>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="gray-bkg">
+                <h3>“Simply delicious”</h3>
+                <p>We stayed in Tarlac for two weeks visiting family and we came upon Cafe Wagon. Freshly brewed
+                    coffee.
+                    Excellent variety of drinks but not so overwhelming were it’s difficult to choose. Nice location
+                    and
+                    ambiance, with an excellent customer service. It’s a great place for the young and old to meet
+                    and
+                    converse.
+
+                    I had ice white chocolate mocha and a blue berry cheesecake which was delicious.
+
+                    I would definitely recommend it.</p>
+
+                    <div class="divider"></div>
+                    <div class="author flex">
+                        <img src="https://lh3.googleusercontent.com/a-/ALV-UjVHITLJHqE7sUnJiqgCQ8GKYzCHhtGpaTSyKFgB4e0q5UIGZyMpIA=w60-h60-p-rp-mo-ba4-br100"
+                            alt="Marlon Calma" loading="lazy">
+                        <div class="name">
+                            <h4>Marlon Calma </h4>
+    
+                        </div>
+                    </div>
+            </div>
+            <div class="gray-bkg">
+                <h3>“One of a kind restaurant”</h3>
+                <p>The Café Wagon is located in front of the College of Holy Spirit Tarlac. It serves tasty drinks
+                    such
+                    as coffee, lattè, and a variety of juices. The place is really beautiful especially during night
+                    time.</p>
+             <div class="divider"></div>
+             <div class="author flex">
+                        <img src="https://lh3.googleusercontent.com/a-/ALV-UjXA0EQK43TNpoAyISRSK-eoXeMxN2J7ydKnfT8F2CPEvxWNfO-7bA=w60-h60-p-rp-mo-ba4-br100"
+                            alt="Rizalde Tacujan" loading="lazy">
+                        <div class="name">
+                            <h4>Rizalde Tacujan</h4>
+    
+                        </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Beginning of Footer -->
+    <footer class="flex">
+        <div>
+            <div class="logo flex">
+                <img src="/img/CAFE WAGON LOGO.png" alt="logo restaurant" style="width: 275px; height: 190px;">
+                <h2 class="heading">Cafe Wagon </h2>
+            </div>
+            <p>A warm touch of Coffee Wagon brings the rich, love, and care.</p>
+        
+        </div>
+
+        <ul>
+            <li class="heading">GENERAL</li>
+            <li><a href="../">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./menu.html">Pricing</a></li>
+          
+        </ul>
+
+        <ul>
+            <li class="heading">FOLLOW US</li>
+            <li><a href="https://www.facebook.com/cafewagontarlac">Facebook</a></li>
+            <li><a href="https://www.instagram.com/_cafewagon">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@cafewagontarlac">TikTok</a></li>
+        </ul>
+
+
+        <div>
+            <p class="heading"></p>
+            <div class="grid">
+                <img src="../img/pexels-steve-3789885 1.png" alt="hot noodles">
+                <img src="../img/eiliv-aceron-d5PbKQJ0Lu8-unsplash 1.png" alt="fries">
+                <img src="../img/pexels-ella-olsson-1640772 1.png" alt="fried potatoes">
+                <img src="../img/pexels-ash-376464 1.png" alt="pancakes with syrup">
+            </div>
+        </div>
+
+    </footer>
+    <p class="copyright">Copyright © 2024 GROUP 5 All Rights Reserved.</p>
+    <!-- End of Footer -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
+

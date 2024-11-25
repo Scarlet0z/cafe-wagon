@@ -1,0 +1,411 @@
+.heroSection {
+    height: 55vh;
+    background: url(../img/image\ 110.png);
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heroSection div {
+    width: 350px;
+}
+
+.heroSection div>* {
+    margin: 24px 0;
+}
+
+.heroSection h1 {
+    font-size: 40px;
+}
+
+.heroSection a {
+    color: black;
+}
+
+a.ctaBtn {
+    color: white;
+}
+
+a.ctaBtn:hover {
+    color: #ad343e;
+    text-decoration: none;
+}
+
+.heroSection+section>div {
+    justify-content: center;
+    margin: 32px auto;
+    gap: 12px;
+}
+
+.heroSection+section>div>div {
+    flex-basis: 15%;
+    padding: 12px 24px;
+    border: 1px solid #dbdfd0;
+    box-shadow: 1px 1px 1px 1px #0000001f;
+    color: #474747;
+}
+
+.heroSection+section>div>div>* {
+    margin: 12px 0;
+}
+
+.heroSection+section a {
+    color: #ad343e;
+    font-family: 'DM Sans Bold';
+}
+
+.heroSection+section h3 {
+    color: black;
+    font-family: 'DM Sans Bold';
+}
+
+.contact {
+    background: #474747;
+    color: white;
+    width: fit-content;
+    padding: 32px 24px;
+}
+
+.contact i+p {
+    color: #dbdfd0;
+    width: 90%;
+    text-align: left;
+}
+
+.contact a {
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact>h3 {
+    color: white;
+    font-family: 'DM Sans Bold';
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.contact>* {
+    margin: 10px 0;
+}
+
+.sect3 {
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: #F9F9F7;
+}
+
+.sect3 h2~* {
+    margin: 12px 0;
+}
+
+.sect3>* {
+    flex-basis: 45%;
+}
+
+.sect3>div+div {
+    padding-right: 64px;
+    flex-basis: 30%;
+    text-align: left;
+}
+
+.sect3 .image {
+    border-radius: 18px;
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    background: url(../img/image\ 111.png);
+}
+
+.sect3 .image+div {
+    z-index: 1;
+    width: 50%;
+    margin-left: 250px;
+    margin-top: -100px;
+    border-radius: 8px;
+    background: #474747;
+}
+
+.sect3+section {
+    text-align: left;
+}
+
+.sect3+section>h2 {
+    margin-left: 130px;
+    width: 350px;
+}
+
+.events {
+    padding: 12px 24px;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.events>div {
+    flex-basis: 20%;
+}
+
+.events>div>* {
+    margin: 8px 0;
+}
+
+.events img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.section-with-grid {
+    align-items: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 32px;
+    padding-left: 40px;
+    width: 60%;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 3 / 2;
+
+}
+
+.parent img {
+    width: 100%;
+}
+
+.div3 {
+    align-self: center;
+}
+
+.div2 {
+    align-items: end;
+}
+
+.div2 img,
+.div3 img {
+    width: 60%;
+}
+
+.icon-list {
+    margin: 20px 0;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon-list .fa-solid,
+.icon-list .fa-regular {
+    display: flex;
+    background: #ad343e;
+    color: #F9F9F7;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent+div {
+    width: 35%;
+}
+
+.reviews h3 {
+    font-size: 20px;
+    color: #ad343e;
+    font-weight: bold;
+}
+
+.review-cards {
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.review-cards>div {
+    flex-basis: 25%;
+    padding: 16px 32px;
+    border-radius: 16px;
+}
+
+.review-cards>div>* {
+    margin: 16px 0;
+}
+
+.review-cards .divider {
+    width: 100%;
+    height: 2px;
+    background: #dbdfd0;
+}
+
+.author {
+    justify-content: space-between;
+}
+
+.author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.video {
+    background: url("https://images.pexels.com/photos/2313037/pexels-photo-2313037.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    box-shadow: inset 0 0 0 2000px #47474791;
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F9F9F7;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.video h2 {
+    font-size: 28px;
+}
+
+.video .fa-solid {
+    background: #F9F9F7;
+    color: #ad343e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features {
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    text-align: left;
+}
+
+.features>* {
+    flex-basis: 25%;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.features p {
+    width: 200px;
+}
+
+.features h4 {
+    font-weight: bold;
+}
+
+.features .name>* {
+    margin: 7px 0;
+}
+
+.features+section {
+    align-items: center;
+}
+
+.flex>section {
+    flex-basis: 40%;
+    text-align: left;
+}
+
+.stats {
+    margin: 24px 0 0;
+    gap: 24px;
+}
+
+.stats>div {
+    background: white;
+    flex-basis: 35%;
+    padding: 32px 24px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px #0000001f;
+}
+
+.stats h3 {
+    margin-bottom: 18px;
+    font-size: 32px;
+}
+
+.flex>section+img {
+    border-radius: 16px;
+}
+
+@media screen and (max-width:600px) {
+    section {
+        padding: 32px 24px;
+    }
+
+    body {
+        overflow-x: none;
+    }
+
+    .heroSection+section>div>div,
+    .sect3+section>.events>* {
+        flex-basis: 40%;
+    }
+
+    .sect3+section>h2 {
+        margin-left: 0;
+    }
+
+    .sect3>*,
+    .sect3>div+div,
+    .features>div,
+    .review-cards>div {
+        flex-basis: 100%;
+    }
+
+    .sect3 .image {
+        width: 100%;
+    }
+
+    .sect3 .image+div {
+        margin-left: 190px;
+    }
+
+    .sect3>div+div {
+        padding: 0;
+    }
+
+    .sect3 .basicBtn {
+        display: block;
+        width: fit-content;
+        margin: 24px auto 0;
+    }
+
+    .parent {
+        width: 100%;
+    }
+
+    .parent+div {
+        width: 100%;
+    }
+
+    .features>div {
+        margin: 8px 0;
+        gap: 24px;
+    }
+
+    .features+section,
+    .features+section>section {
+        padding: 32px 16px;
+        flex-basis: 100%;
+    }
+
+    .features+section>img {
+        width: 100%;
+    }
+}

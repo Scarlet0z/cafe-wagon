@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The Cafe Wagon  restaurant website that displays their menu and provides more information about the restaurant.">
+    <title>Cafe Wagon Restaurant</title>
+
+    <!-- styling -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/menu.css">
+
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <!--picture dimensions = 574 x 335
+    Width 574 pixels
+    Height 335 pixels-->
+
+
+    <!-- importing icons -->
+    <script src="https://kit.fontawesome.com/0acc85d45b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Beginning of Navigation Bar -->
+    <header>
+        <div class="flex">
+            <div class="flex">
+                <a href="tel:09876543211">
+                    <i class="fa-solid fa-phone"></i>&nbsp;
+                    <p>0968 214 9796</p>
+                </a>
+
+                <a href="mailto: https://www.facebook.com/cafewagontarlac">
+                    <i class="fa-regular fa-envelope"></i>&nbsp;
+                    <p>Facebook Page</p>
+                </a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+        <nav class="flex">
+            <a href="../" class="logo flex">
+
+                <h2>Cafe Wagon </h2>
+            </a>
+            <i class="fa-solid fa-bars" id="mobMenu"></i>
+            <ul class="navigationMenu flex">
+                <i class="fa-solid fa-xmark mobileView" id="mobExit"></i>
+                <li><a href="../">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+
+
+
+            </ul>
+
+        </nav>
+    </header>
+    <!-- End of Navigation Bar -->
+
+    <section>
+        <h1>Our Menu</h1>
+        <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.
+        </p>
+
+        <div class="menu-tabs flex">
+            <p class="menu-tab active-tab">All</p>
+            <p class="menu-tab">Samgy n' Wings</p>
+            <p class="menu-tab">Main Dishes</p>
+            <p class="menu-tab">Drinks</p>
+            <p class="menu-tab">Desserts</p>
+            <p class="menu-tab">Add-on</p>
+        </div>
+        <!--Samgy and wings-->
+        <section class="flex">
+            <div class="menu-item" data-type="samgy n' wings">
+                <img src="/img/SamgySetA.png" alt="SamgySetA">
+                <p class="price">₱249</p>
+                <h3>Samgy Set A</h3>
+                <p class="lightText">Unlimited pork, Unlimited side dish (add ons: ₱
+                    30 Unlimited cheese)</p>
+            </div>
+
+            <div class="menu-item" data-type="samgy n' wings">
+                <img src="/img/SamgySetB.png
+                " alt="samgy set b" loading="lazy">
+                <p class="price">₱349</p>
+                <h3>Samgy Set B</h3>
+                <p class="lightText">Unilited pork and beef, Unilited side dish</p>
+            </div>
+
+            <div class="menu-item" data-type="samgy n' wings">
+                <img src="/img/unli_wings.png" alt="Unli wings" loading="lazy">
+                <p class="price">₱259</p>
+                <h3>Unli wings</h3>
+                <p class="lightText">Unlimited 8 flavors chicken wings with side dishes</p>
+            </div>
+
+            <!--Drinks-->
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/caramel macchiato.png" alt="Caramel Macchiato ">
+                <p class="price">
+                    ₱119 - 22oz
+                    <br>
+                    ₱97 - 12oz
+                </p>
+                <h3>Caramel Macchiato </h3>
+                <p class="lightText">Coffee Based</p>
+
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/white chocolate mocha.png" alt="White Chocolate Mocha" loading="lazy">
+                <p class="price">
+                    ₱119 - 22oz
+                    <br>
+                    ₱97 - 12oz
+                </p>
+                <h3>White Chocolate Mocha</h3>
+                <p class="lightText">Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/spanish latte right.png" alt="Spanish Latté" loading="lazy">
+                <p class="price">
+                    ₱119 - 22oz
+                    <br>
+                    ₱90 - 12oz
+                </p>
+                <h3>Spanish Latté</h3>
+                <p class="lightText">Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/iced americano.png" alt="iced americano" loading="lazy">
+                <p class="price">
+                    ₱109 - 22oz
+                    <br>
+                    ₱85 - 12oz
+                </p>
+                <h3>Iced Americano</h3>
+                <p class="lightText">Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/biscoff late.png" alt="Biscoff Café Latté" loading="lazy">
+                <p class="price">₱144</p>
+                <h3>Biscoff Café Latté </h3>
+                <p class="lightText">Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/iced classic choco.png" alt="Iced Classic Chocolate">
+                <p class="price">
+                    ₱144 - 22oz
+                    <br>
+                    ₱99- 12oz
+                </p>
+                <h3>Iced Classic Chocolate </h3>
+                <p class="lightText">Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/dirty matcha.png" alt="Dirty Matcha Latté" loading="lazy">
+                <p class="price">₱144</p>
+                <h3>Dirty Matcha Latté </h3>
+                <p class="lightText">Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/hibiscus tea.png" alt="Hibiscus Tea" loading="lazy">
+                <p class="price">
+                    ₱144 - 22oz
+                    <br>
+                    ₱99- 12oz
+                </p>
+                <h3>Hibiscus Tea</h3>
+                <p class="lightText">Non Coffee Based</p>
+            </div>
+
+            <!--Frappuccino-->
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/caramel latte frap.png" alt="Dirty Caramel" loading="lazy">
+                <p class="price">₱169</p>
+                <h3>Caramel Latte Frappuccino</h3>
+                <p> Frappuccino </p>
+                <p class="lightText">
+                    Coffee Based
+                </p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/coffee jelly frappe.png" alt="Coffee Jelly" loading="lazy">
+                <p class="price">₱169</p>
+                <h3>Coffee Jelly</h3>
+                <p> Frappuccino </p>
+                <p class="lightText">Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/dirty matcha frappe.png" alt="Dirty Matcha" loading="lazy">
+                <p class="price">₱169</p>
+                <h3>Dirty Matcha Frappuccino </h3>
+                <p> Frappuccino </p>
+                <p class="lightText">Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/strawberry latte.png" alt="Strawberry Latté " loading="lazy">
+                <p class="price">₱159</p>
+                <h3>Strawberry Latté</h3>
+                <p> Frappuccino </p>
+                <p class="lightText">Non Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/cookies and cream.png" alt="Strawberries & Cream" loading="lazy">
+                <p class="price">₱169</p>
+                <h3>Cookies & Cream</h3>
+                <p> Frappuccino </p>
+                <p class="lightText">Non Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/Iced Strawberry Black Forest.png" alt="Strawberry Oreo" loading="lazy">
+                <p class="price">₱169</p>
+                <h3>Strawberry Black Forest</h3>
+                <p class="lightText">Non Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/blueberry latte.png" alt="Blueberry Latté" loading="lazy">
+                <p class="price">₱159</p>
+                <h3>Blueberry Latté</h3>
+                <p class="lightText">Non Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/blueberry oreo frapp.png" alt="Blueberry Oreo" loading="lazy">
+                <p class="price">₱169</p>
+                <h3>Blueberry Oreo Frappuccino</h3>
+                <p> Frappuccino </p>
+                <p class="lightText">Non Coffee Based</p>
+            </div>
+
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/vanilla latte.png" alt="vanilla latte" loading="lazy">
+                <p class="price">₱95</p>
+                <h3>Iced Vanilla latte</h3>
+
+                <p class="lightText">Non Coffee Based</p>
+            </div>
+            <!--Lemon-->
+            <div class="menu-item" data-type="drinks">
+                <img src="/img/blue lemonade.png" alt="Lemon" loading="lazy">
+                <p class="price">₱109</p>
+                <h3>Blue Lemonade</h3>
+                <p class="lightText">Non Coffee Based</p>
+            </div>
+
+            <!--Snacks and Desserts-->
+            <div class="menu-item" data-type="desserts">
+                <img src="/img/dessert.png" alt="donuts" loading="lazy">
+                <p class="price">₱159</p>
+                <h3>Donuts</h3>
+                <p class="lightText">The perfect complement to your aromatic coffee? Try our tasty Donuts</p>
+            </div>
+
+            <div class="menu-item" data-type="desserts">
+                <img src="/img/cheesecake.png" alt="Cheesecake" loading="lazy">
+                <p class="price">₱109</p>
+                <h3>Blueberry Cheesecake</h3>
+                <p class="lightText">Dessert that sits atop a crunchy graham cracker crust with blueberry sauce </p>
+            </div>
+
+            <!--main disges -->
+
+            <div class="menu-item" data-type="main dishes">
+                <img src="/img/pasta.png" alt="signature pasta" loading="lazy">
+                <p class="price">₱210</p>
+                <h3>Signature Cafe Wagon Pasta</h3>
+                <p class="lightText">The combination of herbs, spices, and premium ingredients</p>
+            </div>
+
+            <div class="menu-item" data-type="breakfast">
+                <img src="/img/nachos.png" alt="nachos" loading="lazy">
+                <p class="price">₱110</p>
+                <h3>Nachos</h3>
+                <p class="lightText">Crispy chips loaded with cheesy goodness and topped with fresh ingredients</p>
+            </div>
+
+            <div class="menu-item" data-type="main dishes">
+                <img src="/img/classic tocino rb.png" alt="classic tocino" loading="lazy">
+                <p class="price">₱99</p>
+                <h3>Classic Tocino Rice Bowl</h3>
+                <p class="lightText">the perfect meal to bid goodbye to your hunger pangs for just 99 pesos!</p>
+            </div>
+
+            <div class="menu-item" data-type="main dishes">
+                <img src="/img/spam egg rb.png" alt="spam egg rb" loading="lazy">
+                <p class="price">₱99</p>
+                <h3>Spam and Egg Rice Bowl</h3>
+                <p class="lightText">Introducing our Spam and Egg Rice Bowl for just 99 pesos!</p>
+            </div>
+
+            <div class="menu-item" data-type="main dishes">
+                <img src="/img/classic hotdog rb.png" alt="classic hotdog rb" loading="lazy">
+                <p class="price">₱99</p>
+                <h3>Classic Hotdog Rice Bowl</h3>
+                <p class="lightText"> Come your way to Cafe Wagon and order your breakfast for just 99 pesos!</p>
+            </div>
+
+            <div class="menu-item" data-type="main dishes">
+                <img src="/img/longganisa rb.png" alt="longganisa rb" loading="lazy">
+                <p class="price">₱99</p>
+                <h3>Longganisa Rice Bowl</h3>
+                <p class="lightText"> Fill yourself up with the Classic Longganisa Rice bowl for just 99 pesos!</p>
+            </div>
+
+            <div class="menu-item" data-type="main dishes">
+                <img src="/img/korean rb.png" alt="korean kimchi rb" loading="lazy">
+                <p class="price">₱99</p>
+                <h3>Korean Kimchi Rice Bowl</h3>
+                <p class="lightText">Try out our newest Korean Kimchi Rice Bowl for just 99 pesos!</p>
+            </div>
+
+            <div class="menu-item" data-type="desserts">
+                <img src="/img/biscoff cheesecake.png" alt="biscoff cheesecake" loading="lazy">
+                <p class="price">₱300</p>
+                <h3>Burnt Lotus Biscoff Cheesecake</h3>
+                <p class="lightText"> It's a tasty treat that perfectly complements your favorite brew</p>
+            </div>
+
+            <!-- ADD ONS-->
+
+            <div class="menu-item" data-type="add-on">
+                <img src="/img/espressoShot.jpg" alt="espressoShot">
+                <p class="price">₱35</p>
+                <h3>Espresso Shot</h3>
+                <p class="lightText">Add ons for Beverages</p>
+            </div>
+
+            <div class="menu-item" data-type="add-on">
+                <img src="/img/sugarSyrup.jpg" alt="sugar syrup" loading="lazy">
+                <p class="price">₱35</p>
+                <h3>Sugar Syrup</h3>
+                <p class="lightText">Add ons for Beverages</p>
+            </div>
+
+            <div class="menu-item" data-type="add-on">
+                <img src="/img/flavoredSauces.jpg" alt="flavored sauces" loading="lazy">
+                <p class="price">₱35</p>
+                <h3>Flavored Sauces</h3>
+                <p class="lightText">Add ons</p>
+            </div>
+
+            <div class="menu-item" data-type="add-on">
+                <img src="/img/coffeeJellyAddOns.jpg" alt="coffee jelly ">
+                <p class="price"> ₱35</p>
+                <h3>Coffee Jelly </h3>
+                <p class="lightText">Add ons for Beverages</p>
+
+            </div>
+
+            <div class="menu-item" data-type="add-on">
+                <img src="/img/crushedOreos.jpg" alt="crushedOreos" loading="lazy">
+                <p class="price">₱35</p>
+                <h3>Crushed Oreo</h3>
+                <p class="lightText">Add ons for Beverages</p>
+            </div>
+
+            <div class="menu-item" data-type="add-on">
+                <img src="/img/wippedCream.jpg" alt="whipped cream" loading="lazy">
+                <p class="price">₱35</p>
+                <h3>Whipped Cream</h3>
+                <p class="lightText">Add ons for Beverages</p>
+            </div>
+
+            <div class="menu-item" data-type="add-on">
+                <img src="/img/extraMilk.png" alt="extra milk" loading="lazy">
+                <p class="price">₱35 </p>
+                <h3>Extra Milk</h3>
+                <p class="lightText">Add ons for Beverages</p>
+            </div>
+
+            <div class="menu-item" data-type="add-on">
+                <img src="/img/flavoredSyrups.jpg" alt="flavored syrups" loading="lazy">
+                <p class="price">₱35</p>
+                <h3>Flavored Syrups</h3>
+                <p class="lightText">Add ons for Beverages</p>
+            </div>
+
+            <div class="menu-item" data-type="add-on">
+                <img src="/img/poppingBoba.jpg" alt="popping boba">
+                <p class="price">₱35</p>
+                <h3>Popping Boba </h3>
+                <p class="lightText">Add ons for Beverages</p>
+            </div>
+
+            <div class="menu-item" data-type="add-on">
+                <img src="/img/matchaPowder.jpg" alt="matchaPowder" loading="lazy">
+                <p class="price">₱35</p>
+                <h3>Matcha Powder</h3>
+                <p class="lightText">Add ons for Beverages</p>
+            </div>
+
+
+
+
+        </section>
+    </section>
+
+    <!-- Beginning of Footer -->
+    <footer class="flex">
+        <div>
+            <div class="logo flex">
+                <img src="/img/CAFE WAGON LOGO.png" alt="logo restaurant" style="width: 275px; height: 190px;">
+                <h2 class="heading">Cafe Wagon </h2>
+            </div>
+            <p>A warm touch of Coffee Wagon brings the rich, love, and care.</p>
+
+        </div>
+
+        <ul>
+            <li class="heading">GENERAL</li>
+            <li><a href="../">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./menu.html">Pricing</a></li>
+
+        </ul>
+
+        <ul>
+            <li class="heading">FOLLOW US</li>
+            <li><a href="https://www.facebook.com/cafewagontarlac">Facebook</a></li>
+            <li><a href="https://www.instagram.com/_cafewagon">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@cafewagontarlac">TikTok</a></li>
+        </ul>
+
+
+        <div>
+            <p class="heading"></p>
+            <div class="grid">
+                <img src="../img/pexels-steve-3789885 1.png" alt="hot noodles">
+                <img src="../img/eiliv-aceron-d5PbKQJ0Lu8-unsplash 1.png" alt="fries">
+                <img src="../img/pexels-ella-olsson-1640772 1.png" alt="fried potatoes">
+                <img src="../img/pexels-ash-376464 1.png" alt="pancakes with syrup">
+            </div>
+        </div>
+
+    </footer>
+    <p class="copyright">Copyright © 2024 GROUP 5 All Rights Reserved. </p>
+    <!-- End of Footer -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
